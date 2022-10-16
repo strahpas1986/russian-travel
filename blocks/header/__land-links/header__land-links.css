@@ -1,0 +1,5 @@
+.header__land-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

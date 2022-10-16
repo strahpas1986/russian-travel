@@ -1,0 +1,12 @@
+.places__place {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: 152px 460px;
+  row-gap: 48px;
+  column-gap: 40px;
+  padding-bottom: 80px;
+}
+
+.places__place:last-child {
+  padding-bottom: 0;
+}
