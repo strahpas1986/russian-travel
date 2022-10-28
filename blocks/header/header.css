@@ -1,4 +1,5 @@
 .header {
+  min-height: 52px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,6 +14,7 @@
 
 @media screen and (max-width: 568px) {
   .header {
+    min-height: 42px;
     padding: 0 16px;
   }
 }
