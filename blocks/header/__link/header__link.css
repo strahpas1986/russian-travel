@@ -1,13 +1,13 @@
-.header__land-link {
+.header__link {
   font-weight: 400;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.1;
   text-align: right;
-  text-decoration-line: none;
+  text-decoration: none;
   color: #FFFFFF;
   margin-right: 18px;
 }
 
-.header__land-link:last-child {
+.header__link:last-child {
   margin-right: 0;
 }

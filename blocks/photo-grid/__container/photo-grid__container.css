@@ -1,7 +1,0 @@
-.photo-grid__container {
-  display: grid;
-  grid-auto-flow: row;
-  grid-template-columns: repeat(4, 284px);
-  grid-template-rows: repeat(3, 213px);
-  gap: 16px;
-}
