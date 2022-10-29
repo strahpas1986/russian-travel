@@ -1,0 +1,18 @@
+.footer__menu-item {
+  padding-right: 18px;
+
+}
+
+.footer__menu-item:hover {
+  opacity: .8;
+  transition: 2s all;
+}
+
+@media screen and (max-width: 568px) {
+  .footer__menu-item {
+    padding-bottom: 32px;
+  }
+  .footer__menu-item:last-child {
+    padding-bottom: 0;
+  }
+}
