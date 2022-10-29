@@ -1,0 +1,15 @@
+.lead__item {
+  padding-top: 64px;
+}
+
+@media screen and (max-width: 1152px) {
+  .lead__item {
+    padding-top: 56px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .lead__item {
+    padding-top: 40px;
+  }
+}

@@ -1,0 +1,18 @@
+.lead {
+  padding: 0;
+  max-width: 984px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1152px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .lead {
+    max-width: 100%;
+  }
+}
+
