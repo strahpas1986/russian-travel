@@ -1,11 +1,10 @@
 @import url(../vendor/normalize.css);
-@import url(../blocks/fonts/fonts.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__content/page__content.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__section/content__section.css);
-@import url(../blocks/title/title.css);
-@import url(../blocks/subtitle/subtitle.css);
+
 
 /* Header */
 
@@ -15,6 +14,7 @@
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__link/_active/header__link_active.css);
+@import url(../blocks/header/__link-lang/header__link-lang.css);
 
 /* lead */
 
@@ -32,6 +32,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__item/intro__item.css);
+@import url(../blocks/intro/__item-number/intro__item-number.css);
 
 /* photo-grid */
 
@@ -42,21 +43,29 @@
 /* places */
 
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+/* @import url(../blocks/places/__title/places__title.css);
 @import url(../blocks/places/__website/places__website.css);
 @import url(../blocks/places/__url-heading/places__url-heading.css);
 @import url(../blocks/places/__place/places__place.css);
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__paragraphs/places__paragraphs.css);
-@import url(../blocks/places/__paragraph/places__paragraph.css);
+@import url(../blocks/places/__paragraph/places__paragraph.css); */
 
 /* cover */
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__link/cover__link.css);
 
 
 /* footer */
