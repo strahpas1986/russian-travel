@@ -1,7 +1,6 @@
 .place {
   display: grid;
-  /* grid-template-rows: 150px 460px; */
-  grid-template-columns: 460px 1fr; /* переделать после вебинара */
+  grid-template-columns: 460px 1fr;
   row-gap: 48px;
   column-gap: 40px;
   padding-bottom: 80px;
